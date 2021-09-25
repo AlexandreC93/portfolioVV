@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0%;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)), url(/src/img/header.png) center center/cover no-repeat;
+  height: 40vh;
+  width: 100%;
+}
+#header h1 {
+  text-align: center;
+}
+#header h3 {
+  text-align: center;
+}
+
+#aprop {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+#aprop #template-aprop {
+  background-color: orange;
+}
+
+#mes-projets {
+  display: flex;
+}
+#mes-projets #template-projets {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */

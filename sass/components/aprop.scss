@@ -1,0 +1,8 @@
+#aprop{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    #template-aprop{
+        background-color: $mainColor;
+    }
+}
